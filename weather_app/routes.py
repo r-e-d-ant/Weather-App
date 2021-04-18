@@ -7,7 +7,7 @@ from weather_app import app
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # ======== ENTER YOUR API KEY HERE. ========
-api_key = ""  # == GET ONE HERE => https://home.openweathermap.org/users/sign_up
+api_key = "API_KEY"  # == GET ONE HERE => https://home.openweathermap.org/users/sign_up
 # ==========================================
 
 # Base_url to store variable to store url.
