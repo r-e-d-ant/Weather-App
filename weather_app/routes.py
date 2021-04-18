@@ -60,24 +60,3 @@ def home():
             return render_template("index.html")
         
     return render_template('index.html')
-
-
-
-
-
-
-'''
-
-# Enter your API key here.
-api_key = "fed2786d47dc91a91c0358cc51dbcc30"
-
-# Base_url to store variable to store url.
-base_url = "http://api.openweathermap.org/data/2.5/weather?"
-
-city_name = input("Enter city name : ") # Give city name.
-complete_url = base_url + "appid=" + api_key + "&q=" + city_name
-
-# Get methods of requests module return response object.
-response = requests.get(complete_url)
-x = response.json()
-'''
