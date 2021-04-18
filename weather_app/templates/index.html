@@ -1,0 +1,54 @@
+
+{% extends 'layout.html' %}
+
+{% block content%}
+<!-- ===== FORM ====== -->
+<form action="{{ url_for('home') }}" method="POST" class="form">
+    <!-- === COUNTRY FORM === -->
+    <div class="form_stuff country__form">
+        <input type="text" name="country" id="country" class="input__form" placeholder="Type a country or a city">
+        <button class="btn search__btn">SEARCH</button>
+    </div>
+</form>
+{% if results %}
+<span class="hide location_place longitude" id="longitude">{{ longitude }}</span>
+<span class="hide location_place latitude" id="latitude">{{ latitude }}</span>
+<!-- ===== RESULT ====== -->
+<div class="results">
+    <div class="description__section card">
+        <div class="info__title">{{ description }}</div>
+        <div class="values icon__div">
+            <img src="{{ icon }}" alt="icon" class="climat_icon">
+        </div>
+    </div>
+
+    <div class="temp__section card">
+        <h2 class="info__title">Temperature</h2>
+        <div class="values tempvalue__div">
+            <div class="card__text">{{ temperature_Fahr }} ˚F</div>
+            <div class="card__text">/ {{ temperature_Cels }} ˚C</div>
+        </div>
+    </div>
+
+    <!--The div element for the map -->
+    <div class="card map__section">
+        <h2 class="info__title">Location</h2>
+        <div class="values country__info">
+            <span class="card__text">{{ city_name }},</span>
+            <span class="card__text">{{ country }}</span>
+        </div>
+        <div class="map_s" id="map">
+        </div>
+    </div>
+</div>
+{% endif %}
+<!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+
+<!-- ================= GO TO GOOGLE TO SIGNUP FOR YOUR OWN GOOGLE API KEY =========== -->
+
+<!-- ==================== here => https://developers.google.com/maps ========================-->
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=INSERT_YOUR_API_KEY_HERE&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+{% endblock %}

@@ -1,0 +1,152 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========== VARIABLES ========== */
+
+/* == SIZES VARIABLES == */
+:root {
+    --px5-size: 5px;
+    --px10-size: 10px;
+    --px15-size: 15px;
+    --px20-size: 20px;
+    --px25-size: 25px;
+    --px30-size: 30px;
+    --px35-size: 35px;
+    --px40-size: 40px;
+    --px45-size: 45px;
+    --px50-size: 50px;
+}
+
+/* == COLOR VARIABLES == */
+:root {
+    --primary-color: rgb(94, 86, 202);
+    --primary-color-alt: rgb(80, 73, 165);
+    --card-text-color: rgb(50, 44, 107);
+    --dark-blue: rgb(44, 43, 60);
+    --gray-color: rgb(240, 240, 240);
+    --gray-color-alt: rgb(211, 211, 211);
+    --bg-header-color: rgb(94, 86, 202);
+    --gray-card-color: rgb(89, 85, 145);
+    --search-inputBG-color: rgb(235, 235, 235);
+    --search-inputbdBG-color: rgb(218, 218, 218);
+}
+
+/* == FONT VARIABLES == */
+:root {
+    --font-size-14: 14px;
+    --font-size-16: 16px;
+    --font-size-18: 18px;
+    --font-size-22: 22px;
+    --font-size-24: 24px;
+    --font-size-26: 26px;
+    --font-size-28: 28px;
+    --font-size-32: 32px;
+    --font-size-34: 34px;
+}
+
+/* == Z-INDEX VARIABLES == */
+:root {
+    --z-index-10: 100;
+    --z-index-50: 100;
+    --z-index-100: 100;
+}
+
+
+body {
+    font-family: sans-serif;
+    background-color: var(--gray-color);
+    color: var(--dark-blue);
+}
+
+/* =========== BASE ========== */
+a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+#alert__messages {
+    margin: 10px 0px 0px 0px;
+}
+
+.alert {
+    padding: 15px 10px;
+    width: 700px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.alert-error {
+    color: rgb(133, 56, 65	);
+    background-color: rgb(250, 215, 218	);
+}
+
+.list {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hide {
+    display: none;
+}
+
+.card {
+    background-color: var(--gray-card-color);
+    border-radius: 5px;
+    border: thin solid var(--search-inputbdBG-color);
+}
+
+
+/* =========== CLASSESS ========== */
+
+/* == CONTAINER LEFT ==*/
+.p_container_5px {
+    padding: 0 var(--px5-size);
+}
+.p_container_10px {
+    padding: 0 var(--px10-size);
+}
+.p_container_15px {
+    padding: 0 var(--px20-size);
+}
+.p_container_20px {
+    padding: 0 var(--px25-size);
+}
+.p_container_25px {
+    padding: 0 var(--px25-size);
+}
+.p_container_30px {
+    padding: 0 var(--px30-size);
+}
+.p_container_35px {
+    padding: 0 var(--px35-size);
+}
+.p_container_40px {
+    padding: 0 var(--px40-size);
+}
+.p_container_45px {
+    padding: 0 var(--px45-size);
+}
+.p_container_50px {
+    padding: 0 var(--px50-size);
+}
+
+/* === Z-INDEX === */
+.z-index-10 {
+    z-index: var(--z-index-10);
+}
+.z-index-50 {
+    z-index: var(--z-index-50);
+}
+.z-index-100 {
+    z-index: var(--z-index-100);
+}
+/* === CARD BORDER RADIUS === */

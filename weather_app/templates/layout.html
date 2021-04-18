@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/utilities.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>Today Weather</title>
+</head>
+<body>
+    <!-- ======== HEAD ========== -->
+    <nav class="nav__bar">
+        <h2 class="brand">WEATHER</h2>
+
+        <div class="nav__items">
+            <ul class="nav__menu z-index-100" id="nav-menu">
+                <i class='bx bx-x close_menu_icon' id="close-nav-toggle"></i>
+                <a href="#main" class="list nav__item active">Home</a>
+                <a href="#" class="list nav__item">Source</a>
+            </ul>
+            <i class='bx bx-menu menu_icon' id="nav-toggle"></i>
+        </div>
+    </nav>
+    <!-- ======== MAIN ========== -->
+    <main id="main">
+        <div class="container">
+            <div class="form" id="alert__messages">
+                {% with messages = get_flashed_messages(with_categories=True) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class='alert alert-{{ category }}'>
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+            </div>
+            {% block content %}{% endblock %}
+        </div>
+        <div class="map">
+    
+        </div>
+    </main>
+    <!-- ======== FOOTER ========== -->
+    <!-- ======== HEAD ========== -->
+    <!-- ======== HEAD ========== -->
+    <!-- ======== MY JAVASCRIPT ========== -->
+    <script src="../static/main.js"></script>
+</body>
+</html>
