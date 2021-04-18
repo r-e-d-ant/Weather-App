@@ -21,8 +21,8 @@ After signing up insert it where it's write "INSERT_YOUR_API_KEY_HERE in 'index.
 # ------- ====== Then After all of this ============ -------- #
 
 ```
-Type in terminal:<br>
-  • python3 -r requirements.txt<br>
+Type in terminal:
+  • python3 -r requirements.txt
   • python3 run.py
 ```
   
