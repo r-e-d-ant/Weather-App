@@ -22,7 +22,7 @@ After signing up insert it where it's write "INSERT_YOUR_API_KEY_HERE in 'index.
 
 ```
 Type in terminal:
-  • python3 -r requirements.txt
+  • pip3 -r requirements.txt
   • python3 run.py
 ```
   
