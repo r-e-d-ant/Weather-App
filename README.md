@@ -1,7 +1,7 @@
 # Weather-App
 Website to show weather.
 
-# ---- SEE IT IN DEMO <a class="http://titomuto.pythonanywhere.com/home">HERE</a> ----- #
+# ---- SEE IT IN DEMO <a href="http://titomuto.pythonanywhere.com/home">HERE</a> ----- #
 
 • First of all, This web app need an API key to work, so you must sign up for your api key at <a href="https://home.openweathermap.org/users/sign_up">OpenWeatherMap</a><br>
 After signing up insert it where it's write "ENTER_YOUR_API_KEY_HERE in 'routes.py' at line 10"
