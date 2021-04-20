@@ -31,22 +31,22 @@ Type in terminal:
 
 
 # --- ==== screenshots ===== --- #
-• Phone View
+• Phone View<br>
 <br>
 <img src="https://github.com/r-e-d-ant/Weather-App/blob/main/weather_app/static/imgs/max320px.png?raw=true"/>
 <br>
 
-• Tablet View - Menu
+• Tablet View - Menu<br>
 <br>
 <img src="https://github.com/r-e-d-ant/Weather-App/blob/main/weather_app/static/imgs/min768menupx.png?raw=true"/>
 <br>
 
-• Tablet View - Menu
+• Tablet View<br>
 <br>
 <img src="https://github.com/r-e-d-ant/Weather-App/blob/main/weather_app/static/imgs/min768px.png?raw=true"/>
 <br>
 
-• Computer View
+• Computer View<br>
 <br>
 <img src="https://github.com/r-e-d-ant/Weather-App/blob/main/weather_app/static/imgs/min1024px.png?raw=true"/>
 <br>
