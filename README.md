@@ -36,12 +36,12 @@ Type in terminal:
 <img src="https://github.com/r-e-d-ant/Weather-App/blob/main/weather_app/static/imgs/max320px.png?raw=true"/>
 <br>
 
-• Tablet View - Menu<br>
+• Tablet View<br>
 <br>
 <img src="https://github.com/r-e-d-ant/Weather-App/blob/main/weather_app/static/imgs/min768menupx.png?raw=true"/>
 <br>
 
-• Tablet View<br>
+• Tablet View menu<br>
 <br>
 <img src="https://github.com/r-e-d-ant/Weather-App/blob/main/weather_app/static/imgs/min768px.png?raw=true"/>
 <br>
