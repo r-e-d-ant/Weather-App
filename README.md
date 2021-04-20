@@ -1,5 +1,5 @@
 # Weather-App
-Website to show weather.
+Web App to show weather.
 
 # ---- SEE IT IN DEMO <a href="http://titomuto.pythonanywhere.com/home" target="_blank">HERE</a> ----- #
 
