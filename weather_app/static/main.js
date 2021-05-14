@@ -47,11 +47,17 @@ const latitude = document.getElementById("latitude").innerHTML;
 
 // --========================================
 
-// -------------- GET SEARCHED QUERY ------------
-var searchedQuery;
-function getSearchedQuery(inputID) {
-    searchedQuery = document.getElementById(inputID).value;
-    document.getElementById(inputID).setAttribute('value', searchedQuery);
+// --======================================---//
+// -------------- GET SEARCHED CITY ------------
+var getSearchedCity = document.getElementById('city-name').innerHTML;
+
+// Check if search input value is there
+if(getSearchedCity.length > 1) {
+    // populate search input with searched city and remove last comma by slicing
+    document.getElementById('country').value = getSearchedCity.slice(0 , (getSearchedCity.length - 1));
+}else {
+    // if if search input value is not there, populate it with the placeholder below.
+    document.getElementById('country').setAttribute("placeholder", "Type a country or a city");
 }
 
 // Initialize and add the map
