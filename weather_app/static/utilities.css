@@ -71,9 +71,6 @@ a {
 
 #alert__messages {
     margin: 10px 0px 0px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .alert {
@@ -81,6 +78,9 @@ a {
     width: 700px;
     border-radius: 5px;
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .alert-error {
