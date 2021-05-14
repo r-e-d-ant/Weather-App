@@ -45,6 +45,14 @@ const longitude = document.getElementById("longitude").innerHTML;
 
 const latitude = document.getElementById("latitude").innerHTML;
 
+// --========================================
+
+// -------------- GET SEARCHED QUERY ------------
+var searchedQuery;
+function getSearchedQuery(inputID) {
+    searchedQuery = document.getElementById(inputID).value;
+    document.getElementById(inputID).setAttribute('value', searchedQuery);
+}
 
 // Initialize and add the map
 function initMap() {
